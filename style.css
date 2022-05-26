@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: black;
+}
+
+main{
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+#header{
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#color-green{
+    color: #4ADF86;
+}
+.header-container>p{
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 28px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+
+
+
+.btn-container>.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 250px;
+    height: 62px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.btn-container #btn {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 24px;
+
+}
+
+.btn>img {
+    margin-right: 10px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 25px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.slider{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#slider{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin:0 auto;
+}
+
+#line{
+    border: 1px solid #2F3E53;
+    height: 0;
+    width: 0 auto;
+    margin-bottom: 20px;
+}
+
+.pass-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pass-btn>.pass-box{
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+
+.pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+    font-size: 1rem;
+    background: #a2adbd;
+    border-radius: 6px;
+    
+   
+}

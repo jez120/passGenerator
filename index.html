@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa95eaeb8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>New project</title>
+</head>
+<body>
+  <main>
+
+  <div class="header-container">
+    <h1 id="header">Wygeneruj <br><span id="color-green">bezpieczne haslo</span></h1>
+    <p>Paulina <br> zawsze órzywaj bezpiecznych hasel 😎</p>
+    <!-- never use an insecure password again. -->
+  </div>
+    <div  class="btn-container">
+          <div class="btn" onclick="getPassword()">
+            <img src="./images/icon.png" alt="">
+            
+            <div  id="btn">Generuj haslo</div>
+          </div>
+          
+    
+        <div class="slider">
+          
+          <input type="range" id="slider" min="1" max="16" name="slider">
+          <p id="length" style="color: white;">Dlugosc hasla: 1</p>
+
+        </div>
+    </div>
+
+  <div id="line"></div>
+
+
+  <div class="pass-btn">
+
+    <div class="pass-box"  >
+      <p id="pass1" class="pass"> - - - </p>
+      <p id="pass2" class="pass"> - - - </p>
+
+    </div>
+    <div class="pass-box">
+      <p id="pass3" class="pass"> - - - </p>
+      <p id="pass4" class="pass"> - - - </p>
+    </div>
+    
+
+  </div>
+ 
+</main>
+
+<script src="script.js"></script>  
+</body>
+</html>
